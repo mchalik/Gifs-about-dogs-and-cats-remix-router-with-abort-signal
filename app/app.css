@@ -13,3 +13,49 @@ body {
     color-scheme: dark;
   }
 }
+
+.custom-field input {
+    /* Basic sizing and spacing */
+    width: 100%;
+    padding: 0.75em;
+    margin: 0 0 10px 0;
+    
+    /* Aesthetics */
+    border: 2px solid #ccc;
+    border-radius: 0.25em;
+    background-color: #f9f9f9;
+    font-size: 1rem;
+    
+    /* Remove default outline to use custom focus styles */
+    outline: none; 
+    
+    /* Smooth transitions for a "cool" effect */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Style the label */
+.custom-field label {
+    /* Position the label as needed (e.g., above or with a floating animation) */
+    display: block;
+    margin-bottom: 0.5em;
+    color: #666;
+}
+
+.images {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+  }
+}
+
+.images img {
+  max-width: 128px;
+
+  @media screen and (max-width: 768px) {
+    max-width: unset;
+  }
+}
