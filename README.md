@@ -1,5 +1,6 @@
 # Учебный проект - гифки о кошках и собаках
 Использует remix-router, AbortSignal
+
 Протестировать можно здесь: https://gifs-about-dogs-and-cats.vercel.app/ 
 
 # Welcome to React Router!
