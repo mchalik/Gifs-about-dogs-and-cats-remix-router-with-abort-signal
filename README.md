@@ -91,5 +91,5 @@ This template comes with [Tailwind CSS](https://tailwindcss.com/) already config
 
 Built with ❤️ using React Router.
 
-Add .env file with VITE_API_URL
+Add .env file with API_GIPHY_KEY
 [You can obtain key here](https://developers.giphy.com/dashboard/?create=true)

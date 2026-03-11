@@ -37,7 +37,7 @@ export function Dogs() {
       const signal = controller.signal;
 
       const response = await fetch(
-        `https://api.giphy.com/v1/gifs/search?api_key=${import.meta.env.VITE_API_URL}&q=собака ${value}&limit=${5}`,
+        `/api/get-gifs?q=собака ${value}&limit=${5}`,
         { signal }
       )
       const json = await response.json();
