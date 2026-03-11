@@ -21,7 +21,7 @@ body {
 }
 
 .active-link {
-  opacity: .75;
+  opacity: .45;
   pointer-events: none;
 }
 
